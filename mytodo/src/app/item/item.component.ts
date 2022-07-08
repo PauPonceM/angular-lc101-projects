@@ -16,6 +16,5 @@ saveItem(description) {
   if (!description) return;
   this.editable = false;
   this.item.description= description;
-
   }
 }
